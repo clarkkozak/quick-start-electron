@@ -10,5 +10,12 @@
     We are using node <script>document.write(process.versions.node)</script>,
     Chrome <script>document.write(process.versions.chrome)</script>,
     and Electron <script>document.write(process.versions.electron)</script>.
+    <script>
+        const fs = require('fs')
+
+const root = fs.readdirSync('/')
+
+console.log(root)
+    </script>
 </body>
 </html>
